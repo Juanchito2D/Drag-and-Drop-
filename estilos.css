@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 20px;
+    background-color: #12181b;
+}
+
+#DropZone {
+    width: 300px;
+    height: 200px;
+    border: 2px dashed #aaa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    color: #aaa;
+    background-color: #1b2a30;
+}
+
+#DropZone.hover {
+    border-color: #52796f;
+    color: #52796f;
+}
+
+#fileList {
+    width: 300px;
+    max-height: 200px;
+    overflow-y: auto;
+    border: 1px solid #cad2c5;
+    padding: 10px;
+    color: #cad2c5;
+    background-color: #12181b;
+}
+
+#fileList li {
+    list-style: square;
+    padding: 5px 0;
+    border-bottom: 1px solid #eee;
+}
